@@ -1,70 +1,62 @@
 #circle1 {
-    background: #385a94;
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
-    position: relative;
-    /* 
-     Child elements with absolute positioning will be 
-     positioned relative to this div 
-    */
-  }
-  #circle2 {
-    position: absolute;
-    background: #a9aaab;
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    /*
-     Put top edge and left edge in the center
-    */
-    top: 50%;
-    left: 50%;
-    margin: -150px 0px 0px -150px;
-    /* 
-     Offset the position correctly with
-     minus half of the width and minus half of the height 
-    */
-  }
+  background: #385a94;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  /* 
+   Child elements with absolute positioning will be 
+   positioned relative to this div 
+  */
+}
 
-  #circle3{
-    position: absolute;
-    background: blue;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    /*
-     Put top edge and left edge in the center
-    */
-    top: 50%;
-    left: 50%;
-    margin: -150px 0px 0px -150px;
-  }
+#circle2 {
+  position: absolute;
+  background: #a9aaab;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  /*
+   Put top edge and left edge in the center
+  */
+  top: 50%;
+  left: 50%;
+  margin: -200px 0px 0px -200px;
+  /* 
+   Offset the position correctly with
+   minus half of the width and minus half of the height 
+  */
+}
 
-  #circle4{
-    position: absolute;
-    background: purple;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    /*
-     Put top edge and left edge in the center
-    */
-    top: 50%;
-    left: 50%;
-    margin: -150px 0px 0px -150px;
-  }
+#circle3{
+  position: absolute;
+  background: blue;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0px 0px -150px;
+}
 
-  #circle5{
-    position: absolute;
-    background: green;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    /*
-     Put top edge and left edge in the center
-    */
-    top: 50%;
-    left: 50%;
-    margin: -150px 0px 0px -150px;
-  }
+#circle4{
+  position: absolute;
+  background: purple;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0px -100px;
+}
+
+#circle5{
+  position: absolute;
+  background: green;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0px 0px -50px;
+}
