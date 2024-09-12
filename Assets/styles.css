@@ -5,14 +5,18 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-image: url('../Imagenes/Btas-Gotham_City.webp');
+  background-size: cover;        /* Escala la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita en una cuadrícula */
+  background-position: center;   /* Centra la imagen en el fondo */
 }
+
 
 
 .circle-container {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   margin: 0 auto; /* Center the container */
 }
 
@@ -61,5 +65,37 @@ body {
 button {
   margin: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 60px;
 }
+
+
+
+
+.circle-icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.enemigos {
+  position: absolute;
+}
+
+
+
+
+.btn-primary {
+  background-color: rgba(255, 255, 255, 0.3);  /* Cambia el color de fondo del botón */
+  color: white;               /* Cambia el color del texto */
+  font-size: 30px;            /* Cambia el tamaño del texto */
+  padding: 15px 30px;         /* Ajusta el espacio interior del botón */
+  border: 2px solid #020202;  /* Cambia el borde del botón */
+  border-radius: 8px;         /* Redondea las esquinas del botón */
+}
+
+.btn-primary:hover {
+  background-color: #181616;  /* Cambia el color del fondo cuando pasas el cursor */
+  color: #fff;
+  border: 2px solid #6e0606;                /* Cambia el color del texto en hover */
+}
+
