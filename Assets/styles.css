@@ -32,7 +32,7 @@
   left: 50%;
   border-radius: 50%;
   border: 5px solid rgba(0, 0, 0, 0.5); /* Semi-transparent border */
-  background-image: url('../Imagenes/Batmand.webp'); /* Add your background image here */
+  background-image: url('Imagenes/Batmand.webp'); /* Add your background image here */
   background-size: cover;
   background-position: center;
   background-clip: content-box;
