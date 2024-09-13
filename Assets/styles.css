@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-body {
+.gotham-body {
   background-image: url('../Imagenes/Btas-Gotham_City.webp');
   background-size: cover;        /* Escala la imagen para que cubra todo el fondo */
   background-repeat: no-repeat;  /* Evita que la imagen se repita en una cuadrícula */
   background-position: center;   /* Centra la imagen en el fondo */
 }
 
-
+.batcave-body {
+  background-image: url('../Imagenes/Batcave.webp');
+  background-size: cover;        /* Escala la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita en una cuadrícula */
+  background-position: center;   /* Centra la imagen en el fondo */
+}
 
 .circle-container {
   position: relative;
